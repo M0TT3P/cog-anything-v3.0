@@ -12,10 +12,6 @@ from diffusers import (
     EulerAncestralDiscreteScheduler,
     DPMSolverMultistepScheduler,
 )
-from diffusers.pipelines.stable_diffusion.safety_checker import (
-    StableDiffusionSafetyChecker,
-)
-
 
 MODEL_ID = "Linaqruf/anything-v3.0"
 MODEL_CACHE = "diffusers-cache"
